@@ -14,7 +14,7 @@ $(document).ready(function() {
     // Mobile menu toggle
     $('.mobile-menu-btn').click(function() {
         $('.mobile-menu').toggleClass('active');
-        const icon = $(this).find('i');
+        const icon = $('.menu-icon');
         if ($('.mobile-menu').hasClass('active')) {
             icon.attr('data-lucide', 'x');
         } else {
