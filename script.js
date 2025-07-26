@@ -14,11 +14,13 @@ $(document).ready(function() {
     // Mobile menu toggle
     $('.mobile-menu-btn').click(function() {
         $('.mobile-menu').toggleClass('active');
-        const icon = $('.menu-icon');
+        
         if ($('.mobile-menu').hasClass('active')) {
-            icon.attr('data-lucide', 'x');
+            $('.burger').css('display','none');
+            $('.cross').css('display','block');
         } else {
-            icon.attr('data-lucide', 'menu');
+            $('.burger').css('display','block');
+            $('.cross').css('display','none');
         }
         lucide.createIcons();
     });
