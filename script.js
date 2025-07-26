@@ -14,7 +14,6 @@ $(document).ready(function() {
     // Mobile menu toggle
     $('.mobile-menu-btn').click(function() {
         $('.mobile-menu').toggleClass('active');
-        
         if ($('.mobile-menu').hasClass('active')) {
             $('.burger').css('display','none');
             $('.cross').css('display','block');
@@ -22,8 +21,15 @@ $(document).ready(function() {
             $('.burger').css('display','block');
             $('.cross').css('display','none');
         }
-        lucide.createIcons();
     });
+
+    if ($('.mobile-menu').hasClass('active')) {
+        $('.burger').css('display','none');
+        $('.cross').css('display','block');
+    } else {
+        $('.burger').css('display','block');
+        $('.cross').css('display','none');
+    }
     
     // Close mobile menu when clicking on links
     $('.mobile-nav-link, .mobile-nav-btn').click(function() {
