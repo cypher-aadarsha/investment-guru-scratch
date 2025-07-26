@@ -762,6 +762,8 @@ body {
     color: var(--accent-600);
     margin-bottom: 24px;
     line-height: 1.7;
+    width: 95%;
+    max-width: 100%;
 }
 
 .about-btn {
@@ -1346,8 +1348,8 @@ body {
 }
 
 .footer-social-link i {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 /* Consultation Page Styles */

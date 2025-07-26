@@ -284,34 +284,42 @@
                 </h2>
             </div>
 
-            <div class="about-content">
-                <!-- Left Content -->
-                <div class="about-left">
-                    <h3 class="about-subtitle">5+ Years of Investment Excellence</h3>
-                    
-                    <p class="about-text">
-                        Investment Guru is a forward-thinking financial education and consulting company dedicated to reshape the way individuals understand and participate in the share market. With a focus on in-depth market analysis, comprehensive training, and personalized mentorship, we provide a full spectrum of services aimed at empowering individuals to make informed, confident, and strategic investment decisions.
-                    </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12">
+                        <!-- Left Content -->
+                        <div class="about-left">
+                            <h3 class="about-subtitle">5+ Years of Investment Excellence</h3>
+                            
+                            <p class="about-text">
+                                Investment Guru is a forward-thinking financial education and consulting company dedicated to reshape the way individuals understand and participate in the share market. With a focus on in-depth market analysis, comprehensive training, and personalized mentorship, we provide a full spectrum of services aimed at empowering individuals to make informed, confident, and strategic investment decisions.
+                            </p>
 
-                    <p class="about-text">
-                        Founded with a clear mission — to make the share market simple and easy for everyone — Investment Guru has positioned itself as a trusted partner for beginners, intermediate traders, and seasoned investors alike. We believe that financial literacy is not a privilege but a necessity, and we are committed to making high-quality stock market education accessible to all, regardless of background or experience.
-                    </p>
+                            <p class="about-text">
+                                Founded with a clear mission — to make the share market simple and easy for everyone — Investment Guru has positioned itself as a trusted partner for beginners, intermediate traders, and seasoned investors alike. We believe that financial literacy is not a privilege but a necessity, and we are committed to making high-quality stock market education accessible to all, regardless of background or experience.
+                            </p>
 
-                    <button class="about-btn">Learn More About Us</button>
-                </div>
-
-                <!-- Right Content -->
-                <div class="about-right">
-                    <div class="about-image-container">
-                        <img src="./logo.jpg" alt="Investment Guru" class="about-image">
-                        <div class="about-image-content">
-                            <h4 class="about-image-title">Investment Guru</h4>
-                            <p class="about-image-subtitle">Because every investor needs a guru.</p>
+                            <button class="about-btn">Learn More About Us</button>
                         </div>
-                        <div class="about-image-bg-1"></div>
-                        <div class="about-image-bg-2"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-12">
+                        <!-- Right Content -->
+                        <div class="about-right">
+                            <div class="about-image-container">
+                                <img src="./logo.jpg" alt="Investment Guru" class="about-image">
+                                <div class="about-image-content">
+                                    <h4 class="about-image-title">Investment Guru</h4>
+                                    <p class="about-image-subtitle">Because every investor needs a guru.</p>
+                                </div>
+                                <div class="about-image-bg-1"></div>
+                                <div class="about-image-bg-2"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
+
+                
             </div>
 
             <!-- Services Include -->
@@ -376,118 +384,123 @@
                 </p>
             </div>
 
-            <div class="contact-content">
-                <!-- Contact Form -->
-                <div class="contact-form-container">
-                    <div class="contact-form-header">
-                        <div class="contact-form-icon">
-                            <i data-lucide="send"></i>
-                        </div>
-                        <div class="contact-form-title-container">
-                            <h3 class="contact-form-title">Send us a Message</h3>
-                            <p class="contact-form-subtitle">We'll get back to you within 24 hours</p>
-                        </div>
-                    </div>
-
-                    <!-- Status Messages -->
-                    <div id="contact-success" class="contact-message contact-success" style="display: none;">
-                        <i data-lucide="check-circle"></i>
-                        <span>Message sent successfully! We'll contact you soon.</span>
-                    </div>
-
-                    <div id="contact-error" class="contact-message contact-error" style="display: none;">
-                        <i data-lucide="alert-circle"></i>
-                        <span>Something went wrong. Please try again.</span>
-                    </div>
-
-                    <div id="contact-submitting" class="contact-message contact-submitting" style="display: none;">
-                        <span>Sending message...</span>
-                    </div>
-
-                    <form id="contact-form" class="contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name" class="form-label">Full Name *</label>
-                                <div class="form-input-container">
-                                    <i data-lucide="user"></i>
-                                    <input type="text" id="name" name="name" required class="form-input" placeholder="Your full name">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <!-- Contact Form -->
+                        <div class="contact-form-container">
+                            <div class="contact-form-header">
+                                <div class="contact-form-icon">
+                                    <i data-lucide="send"></i>
+                                </div>
+                                <div class="contact-form-title-container">
+                                    <h3 class="contact-form-title">Send us a Message</h3>
+                                    <p class="contact-form-subtitle">We'll get back to you within 24 hours</p>
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label for="email" class="form-label">Email Address *</label>
-                                <div class="form-input-container">
-                                    <i data-lucide="mail"></i>
-                                    <input type="email" id="email" name="email" required class="form-input" placeholder="your.email@example.com">
+                            <!-- Status Messages -->
+                            <div id="contact-success" class="contact-message contact-success" style="display: none;">
+                                <i data-lucide="check-circle"></i>
+                                <span>Message sent successfully! We'll contact you soon.</span>
+                            </div>
+
+                            <div id="contact-error" class="contact-message contact-error" style="display: none;">
+                                <i data-lucide="alert-circle"></i>
+                                <span>Something went wrong. Please try again.</span>
+                            </div>
+
+                            <div id="contact-submitting" class="contact-message contact-submitting" style="display: none;">
+                                <span>Sending message...</span>
+                            </div>
+
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Full Name *</label>
+                                        <div class="form-input-container">
+                                            <i data-lucide="user"></i>
+                                            <input type="text" id="name" name="name" required class="form-input" placeholder="Your full name">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <div class="form-input-container">
+                                            <i data-lucide="mail"></i>
+                                            <input type="email" id="email" name="email" required class="form-input" placeholder="your.email@example.com">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="phone" class="form-label">Phone Number</label>
-                                <div class="form-input-container">
-                                    <i data-lucide="phone"></i>
-                                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+977-9841234567">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <div class="form-input-container">
+                                            <i data-lucide="phone"></i>
+                                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+977-9841234567">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject *</label>
+                                        <input type="text" id="subject" name="subject" required class="form-input" placeholder="What can we help you with?">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label for="subject" class="form-label">Subject *</label>
-                                <input type="text" id="subject" name="subject" required class="form-input" placeholder="What can we help you with?">
-                            </div>
-                        </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea id="message" name="message" required rows="4" class="form-textarea" placeholder="Tell us more about your investment goals and how we can help..."></textarea>
+                                </div>
 
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message *</label>
-                            <textarea id="message" name="message" required rows="4" class="form-textarea" placeholder="Tell us more about your investment goals and how we can help..."></textarea>
-                        </div>
-
-                        <button type="submit" class="contact-submit-btn">
-                            <span class="submit-text">Send Message</span>
-                            <span class="submit-loading" style="display: none;">
-                                <div class="loading-spinner"></div>
-                                Sending Message...
-                            </span>
-                            <i data-lucide="send"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <!-- Business Hours -->
-                    <div class="contact-info-card">
-                        <div class="contact-info-header">
-                            <div class="contact-info-icon contact-info-icon-1">
-                                <i data-lucide="clock"></i>
-                            </div>
-                            <div class="contact-info-content">
-                                <h4 class="contact-info-title">Business Hours</h4>
-                                <p class="contact-info-detail">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                                <p class="contact-info-detail">Sat: 10:00 AM - 4:00 PM</p>
-                            </div>
+                                <button type="submit" class="contact-submit-btn">
+                                    <span class="submit-text">Send Message</span>
+                                    <span class="submit-loading" style="display: none;">
+                                        <div class="loading-spinner"></div>
+                                        Sending Message...
+                                    </span>
+                                    <i data-lucide="send"></i>
+                                </button>
+                            </form>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <!-- Contact Information -->
+                        <div class="contact-info">
+                            <!-- Business Hours -->
+                            <div class="contact-info-card">
+                                <div class="contact-info-header">
+                                    <div class="contact-info-icon contact-info-icon-1">
+                                        <i data-lucide="clock"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4 class="contact-info-title">Business Hours</h4>
+                                        <p class="contact-info-detail">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                                        <p class="contact-info-detail">Sat: 10:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Google Maps -->
-                    <div class="contact-map-container">
-                        <h4 class="contact-map-title">
-                            <i data-lucide="map-pin"></i>
-                            Find Us
-                        </h4>
+                            <!-- Google Maps -->
+                            <div class="contact-map-container">
+                                <h4 class="contact-map-title">
+                                    <i data-lucide="map-pin"></i>
+                                    Find Us
+                                </h4>
 
-                        <div class="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d883.150979613664!2d85.32829626956001!3d27.69863418593248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQxJzU1LjEiTiA4NcKwMTknNDQuMiJF!5e0!3m2!1sen!2snp!4v1753511424217!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-                        </div>
+                                <div class="contact-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d883.150979613664!2d85.32829626956001!3d27.69863418593248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQxJzU1LjEiTiA4NcKwMTknNDQuMiJF!5e0!3m2!1sen!2snp!4v1753511424217!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                                </div>
 
-                        <div class="contact-map-info">
-                            <p class="contact-map-detail">
-                                <strong>Address:</strong> Ghattekulo, Anamnagar, Kathmandu, Nepal
-                            </p>
-                            <p class="contact-map-detail">
-                                <strong>Landmark:</strong> Opposite to Bigmart, Anamnagar
-                            </p>
+                                <div class="contact-map-info">
+                                    <p class="contact-map-detail">
+                                        <strong>Address:</strong> Ghattekulo, Anamnagar, Kathmandu, Nepal
+                                    </p>
+                                    <p class="contact-map-detail">
+                                        <strong>Landmark:</strong> Opposite to Bigmart, Anamnagar
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -561,16 +574,16 @@
                 <!-- Social Links -->
                 <div class="footer-social">
                     <a href="https://www.facebook.com/profile.php?id=61577410238664" class="footer-social-link" aria-label="Facebook">
-                        <i data-lucide="facebook"></i>
+                        <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="footer-social-link" aria-label="Twitter">
-                        <i data-lucide="twitter"></i>
+                    <a href="https://www.tiktok.com/@investmentguru.np" class="footer-social-link" aria-label="Twitter">
+                        <i class="bi bi-tiktok"></i>
                     </a>
-                    <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                    <!-- <a href="#" class="footer-social-link" aria-label="LinkedIn">
                         <i data-lucide="linkedin"></i>
-                    </a>
+                    </a> -->
                     <a href="https://www.instagram.com/investmentguru_np/" class="footer-social-link" aria-label="Instagram">
-                        <i data-lucide="instagram"></i>
+                        <i class="bi bi-instagram"></i>
                     </a>
                 </div>
             </div>

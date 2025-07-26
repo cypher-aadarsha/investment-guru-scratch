@@ -14,18 +14,18 @@ $(document).ready(function() {
     // Mobile menu toggle
     $('.mobile-menu-btn').click(function() {
         $('.mobile-menu').toggleClass('active');
-        console.log('Mobile menu button clicked.');
+        // console.log('Mobile menu button clicked.');
         if ($('.mobile-menu').hasClass('active')) {
-                        console.log('Menu is active. Hiding burger, showing cross.');
+            // console.log('Menu is active. Hiding burger, showing cross.');
             $('.burger').css('display','none');
             $('.cross').css('display','block');
         } else {
-            console.log('Menu is inactive. Showing burger, hiding cross.');
+            // console.log('Menu is inactive. Showing burger, hiding cross.');
             $('.burger').css('display','block');
             $('.cross').css('display','none');
         }
-                console.log('Burger display after toggle:', $('.burger').css('display'));
-        console.log('Cross display after toggle:', $('.cross').css('display'));
+        // console.log('Burger display after toggle:', $('.burger').css('display'));
+        // console.log('Cross display after toggle:', $('.cross').css('display'));
     });
 
     if ($('.mobile-menu').hasClass('active')) {
