@@ -14,14 +14,27 @@ $(document).ready(function() {
     // Mobile menu toggle
     $('.mobile-menu-btn').click(function() {
         $('.mobile-menu').toggleClass('active');
-        const icon = $(this).find('i');
+        console.log('Mobile menu button clicked.');
         if ($('.mobile-menu').hasClass('active')) {
-            icon.attr('data-lucide', 'x');
+                        console.log('Menu is active. Hiding burger, showing cross.');
+            $('.burger').css('display','none');
+            $('.cross').css('display','block');
         } else {
-            icon.attr('data-lucide', 'menu');
+            console.log('Menu is inactive. Showing burger, hiding cross.');
+            $('.burger').css('display','block');
+            $('.cross').css('display','none');
         }
-        lucide.createIcons();
+                console.log('Burger display after toggle:', $('.burger').css('display'));
+        console.log('Cross display after toggle:', $('.cross').css('display'));
     });
+
+    if ($('.mobile-menu').hasClass('active')) {
+        $('.burger').css('display','none');
+        $('.cross').css('display','block');
+    } else {
+        $('.burger').css('display','block');
+        $('.cross').css('display','none');
+    }
     
     // Close mobile menu when clicking on links
     $('.mobile-nav-link, .mobile-nav-btn').click(function() {
