@@ -1283,9 +1283,8 @@ body {
 }
 
 .footer-contact-item i {
-    width: 18px;
-    height: 18px;
-    color: var(--primary-400);
+    font-size: 20px;
+    color: rgb(203, 213, 225);
 }
 
 .footer-links-title {
@@ -1339,6 +1338,11 @@ body {
     color: var(--accent-400);
     text-decoration: none;
     transition: all 0.3s ease;
+}
+
+.call-link{
+    text-decoration: none;
+    color: rgb(203, 213, 225);
 }
 
 .footer-social-link:hover {
