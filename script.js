@@ -94,7 +94,7 @@ $(document).ready(function() {
         });
         
         // Google Apps Script URL for contact form
-        const scriptUrl = 'https://script.google.com/macros/s/AKfycbz17EdNMvFs78XCC3ikNClrrBtgmigvV8BuSLvaBSw0sfJQJUpU5ynd50Q3x0OBnSpw/exec';
+        const scriptUrl = 'https://script.google.com/macros/s/AKfycbysYTfudKkcK0Atl8EobF_O0pOxxIH7szkeAKJrCLfSp-TWs928BgqPysstHeOGVMjG/exec';
         
         // Submit form
         fetch(scriptUrl, {
@@ -152,7 +152,7 @@ $(document).ready(function() {
         });
         
         // Google Apps Script URL for consultation form
-        const scriptUrl = 'https://script.google.com/macros/s/AKfycbxb2oDjMmUu5T9oIfLEWe6pHP_r0XtOeEUTCsR5oTIAL6zAKCZLm9BGpWw98yOAQ6HiwQ/exec';
+        const scriptUrl = 'https://script.google.com/macros/s/AKfycbzspAAiZMeZQydb_bsGsQGYqFiIu2NC133SNibHiaqLbfBvUlFhkOUbTuuccPRgjq6LSQ/exec';
         
         // Submit form
         fetch(scriptUrl, {
@@ -291,7 +291,7 @@ $(document).ready(function() {
             });
             
             // Google Apps Script URL for enrollment form
-            const scriptUrl = 'https://script.google.com/macros/s/AKfycby7SDuXj8vf-hOJEsIKo9DdFQlQO2FQWtVI3OGNctpbjQGeFUdgpH9AbxwOJ68j-jIh/exec';
+            const scriptUrl = 'https://script.google.com/macros/s/AKfycbyVH8yjgoqr0hsVp0vDC2oid_bVviRdiJo8SmGahoSlFufW2cBDcmriLIuCZP7MB9My/exec';
             
             // Submit form
             fetch(scriptUrl, {
