@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Training Enrollment | Investment Guru</title>
+    <title>Contact | Investment Guru</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,68 +25,59 @@
             <a href="trainings.html">Trainings</a>
             <a href="about.html">About</a>
             <a href="index.html#services">Services</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="active">Contact</a>
             <a href="consultation.html" class="nav-cta">Free Consultation <span>↗</span></a>
         </nav>
         </div>
     </header>
 
     <main>
-        <section class="section" style="padding-top:180px">
+        <section class="section contact-section" style="padding-top:180px">
             <div class="container contact-grid">
                 <div class="contact-copy">
-                    <div class="eyebrow dark">TRAINING ENROLLMENT</div>
+                    <div class="eyebrow dark">CONTACT US</div>
                     <h1 style="font:800 clamp(48px,6vw,78px)/1 var(--font-head);letter-spacing:-.06em;margin:0 0 25px">
-                        Choose your<br><em style="font-style:normal;color:#087a46">learning path.</em></h1>
-                    <p>Join Investment Guru's expert-led trainings and build practical skills to navigate the stock market
-                        with confidence.</p>
-                    <!-- Dynamic enrollment card — updated when dropdown changes -->
-                    <div id="enrollmentCard"></div>
+                        Let's make your<br><em style="font-style:normal;color:#087a46">next move smarter.</em></h1>
+                    <p>Ready to start your investment journey? Get in touch with our experienced advisors for
+                        personalized financial guidance and investment solutions.</p>
+                    <!-- Dynamic contact details rendered by JS from data.js -->
+                    <div class="contact-details" id="contactDetails"></div>
                 </div>
-                <form class="contact-form" id="enrollForm">
-                    <div class="form-title"><span>ENROLL</span>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-title"><span>01</span>
                         <div>
-                            <h3>Initiate your enrollment</h3>
-                            <p>One-time payment • Non-refundable after 7 days.</p>
+                            <h3>Send us a message</h3>
+                            <p>We'll get back to you within 24 hours.</p>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <label>First Name *
-                            <input required name="firstName" placeholder="Your first name">
-                        </label>
-                        <label>Last Name *
-                            <input required name="lastName" placeholder="Your last name">
-                        </label>
-                    </div>
-                    <label>Email Address *
-                        <input required type="email" name="email" placeholder="your.email@example.com">
-                    </label>
-                    <label>Phone Number *
-                        <input required name="phone" placeholder="+977-9841234567"></label>
-                    <label>Select Training *
-                        <select required name="course" id="trainingSelect"
-                            style="display:block;width:100%;border:1px solid #d8e0db;background:#fff;border-radius:10px;padding:13px 14px;margin-top:7px">
-                            <!-- Populated by JS from data.js -->
-                        </select>
-                    </label>
-                    <label style="display:flex;gap:9px;align-items:flex-start">
-                        <input required type="checkbox" name="agreeTerms" style="width:auto;margin:2px 0"> I agree to the Terms of Service and Privacy Policy and understand the training purchase policy.
-                    </label>
-                    <button class="btn btn-primary full">Enroll Now <span>↗</span></button>
-                    <p class="form-status" id="enrollStatus"></p>
+                    </div><label>Full Name *<input required name="name" placeholder="Your full name"></label>
+                    <div class="form-row"><label>Email Address *<input required type="email" name="email"
+                                placeholder="your.email@example.com"></label><label>Phone Number<input name="phone"
+                                placeholder="+977-9841234567"></label></div><label>Subject *<input required
+                            name="subject" placeholder="What can we help you with?"></label><label>Message *<textarea
+                            required name="message" rows="6"
+                            placeholder="Tell us a little about what you need..."></textarea></label><button
+                        class="btn btn-primary full">Send Message <span>↗</span></button>
+                    <p class="form-status" id="formStatus"></p>
                 </form>
+            </div>
+        </section>
+        <section class="section" style="padding-top:0">
+            <div class="container">
+                <div style="height:380px;border-radius:24px;overflow:hidden;border:1px solid #dfe5e1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d883.150979613664!2d85.32829626956001!3d27.69863418593248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQxJzU1LjEiTiA4NcKwMTknNDQuMiJF!5e0!3m2!1sen!2snp!4v1753511424217!5m2!1sen!2snp" width="100%" height="100%" style="border:0" loading="lazy"></iframe>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- Social Media Presence Section -->
-    <!-- <section class="social-media-section" id="social">
+    <section class="social-media-section" id="social">
         <div class="container social-inner">
             <div class="social-eyebrow">My Presence</div>
             <h2 class="social-title">My Social Media Presence</h2>
             <div class="social-grid" id="socialGrid"></div>
         </div>
-    </section> -->
+    </section>
 
     <!-- WhatsApp Floating Action Button -->
     <a href="https://wa.me/9779767473560" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
